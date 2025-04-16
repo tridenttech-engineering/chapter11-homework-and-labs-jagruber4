@@ -11,6 +11,12 @@ int main()
 	double total = 0.0;
 	double average = 0.0;
 
+	for (int x = 0; x < 10; x += 1)
+		{
+			total += prices[x];
+			average = total / 10;
+			//end for
+		}
 
 	cout << fixed << setprecision(2);
 	cout << "Average stock price: $" << average << endl;
